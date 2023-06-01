@@ -1,0 +1,30 @@
+#container {
+	width: min(100%, 375px);
+	display: flex;
+	margin: 20px auto;
+	justify-content: center;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.part1, .part2 {
+	border: 2px solid green;
+	flex: 1;
+}
+
+#result {
+	border-radius: 100px;
+	background: darkblue;
+	width: calc(100%/2);
+	height: calc(179px/2);
+	text-align: center;
+	vertical-align: center;
+	box-sizing: border-box;
+	align-self: center;
+}
+
+@media screen and (max-width: 375px) {
+	#container {
+		flex-direction: column;
+	}
+}
