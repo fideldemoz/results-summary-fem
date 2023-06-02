@@ -151,6 +151,7 @@ button:hover {
 	#container {
 		margin-top: 10px;
 		flex-direction: column;
+		max-width: 300px;
 	}
 	.part2 {
 		gap: 1rem;
