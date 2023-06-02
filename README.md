@@ -68,7 +68,7 @@ This was my first challenge. Now that I now how useful it is to develop real wor
 - [Tutorial 1 - Background images for bullets - all steps combined](https://css.maxdesign.com.au/listutorial/master.htm) - This tutorial helped me solve the list icons. It is really clear and straight to the point.
 
 ### Constraints
-I didn't find it helpfull the fact that they specified mobile width to 375px, because there are larger mobile devices and the project is just going to look bad on them. For this reason, I set mobile device width to 455px to behave well in all devices and have smooth transition form mobile view to desktop, when the screen is zoomed or resized.
+I didn't find it helpfull the fact that they specified mobile width to 375px, because there are larger mobile devices and the project is just going to look bad on them. For this reason, I set mobile device width to `455px` to behave well in all devices and have smooth transition form mobile view to desktop, when the screen is zoomed or resized.
 
 ## Author
 
