@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
 
 :root {
-	--mobile: 375px;
+	--mobile: 455px;
 	--desktop: 1440px;
 
 	--light-red: 0, 100%, 67%;
@@ -34,10 +36,10 @@ body {
 	height: 100vh;
 	gap: 4rem;
 	font-weight: 500;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Hanken Grotesk', sans-serif;
 }
 h1, h2, h3, h4 {
-	font-family: 'Poiret One', cursive;
+	font-weight: 800;
 }
 body p {
 	font-size: 18px;
@@ -130,7 +132,7 @@ button {
 	padding: .75rem 2rem;
 	border-radius: 30px;
 	border: none;
-	color: var(--white)
+	color: hsl(var(--white));
 }
 
 .got {
@@ -142,8 +144,12 @@ button {
 button:hover {
 	background-color: var(--light-royal-blue-bg);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 455px) {
+	body {
+		height: auto;
+	}
 	#container {
+		margin-top: 10px;
 		flex-direction: column;
 	}
 	.part2 {
